@@ -1,0 +1,19 @@
+{
+  "name": "userapp-quast",
+  "version": "1.0.0",
+  "description": "who am i to judge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obelion1/userapp.git"
+  },
+  "author": "obelion1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Obelion1/userapp/issues"
+  },
+  "homepage": "https://github.com/Obelion1/userapp#readme"
+}
