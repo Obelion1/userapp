@@ -1,0 +1,109 @@
+/* Minimal, clean defaults */
+:root {
+  --bg: #f7f8fa;
+  --text: #222;
+  --muted: #6b7280;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji", sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* Layout */
+header {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0 1rem 0 1rem;
+  font-size: 1.25rem;
+}
+
+nav {
+  margin: 0.25rem 1rem 0 1rem;
+}
+
+nav a {
+  color: var(--primary);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main.container {
+  max-width: 820px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Typography */
+h1, h2, h3 {
+  line-height: 1.25;
+}
+
+h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+p {
+  margin: 0.5rem 0 1rem 0;
+  color: var(--text);
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  background: var(--card);
+}
+
