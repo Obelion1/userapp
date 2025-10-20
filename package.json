@@ -2,9 +2,12 @@
   "name": "userapp-quast",
   "version": "1.0.0",
   "description": "who am i to judge",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Obelion1/userapp/issues"
   },
-  "homepage": "https://github.com/Obelion1/userapp#readme"
+  "homepage": "https://github.com/Obelion1/userapp#readme",
+  "keywords": [],
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pug": "^3.0.3"
+  }
 }

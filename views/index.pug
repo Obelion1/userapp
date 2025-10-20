@@ -1,0 +1,14 @@
+extends layouts/main
+
+block content 
+  h2 Willkommen auf der Startseite
+  p= message
+
+  if user
+    p Hallo #{user.name}
+  else
+    a(href="/login" class="btn btn-primary") Anmelden
+
+block scripts 
+  script.
+    console.log("Startseite geladen")
